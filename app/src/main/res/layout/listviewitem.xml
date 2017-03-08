@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/Listview_imager_one"
+        android:layout_width="150dp"
+        android:layout_height="112dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Listview_text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="啥都不会撒"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Listview_textview_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="asdasdasdasda"
+            android:textSize="10sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Listview_text_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="啥都不"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Listview_text_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="啥"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Listview_text_thress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/setbar_bg"
+                android:text="啥都不会撒"
+                android:textColor="#ff8800"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
